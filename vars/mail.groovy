@@ -1,6 +1,6 @@
  def call(String buildresult)
  {
-      if(buildresult=='success')
+      if(buildresult=='SUCCESS')
       {
       mail to: 'anusriianureddy@gmail.com',
       subject: "Job status: ${currentBuild.fullDisplayName}",
